@@ -720,17 +720,25 @@ textarea.form-control {
 }
 
 .socials {
-    position: absolute;
     display: flex;
-    top: 50%;
-    left: 20px;
-    transform: translateY(-50%);
 }
 .socials a:not(:first-child) {
     margin-left: 20px;
 }
 .socials a img {
     width: 21px;
+}
+
+.cookies-wrapper {
+    display: flex;
+    margin: 0 77px;
+}
+
+.cookies-group-button {
+    display: flex;
+    min-width: 140px;
+    align-items: center;
+    padding-left: 10px;
 }
 
 
@@ -794,6 +802,18 @@ textarea.form-control {
     .cta_header{
         font-size: 22px;
         line-height: 1.4;
+    }
+
+    .cookies-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .socials {
+        justify-content: center;
     }
 }
 
