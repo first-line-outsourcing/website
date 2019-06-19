@@ -842,3 +842,6 @@ textarea.form-control {
     width: 100%;
     text-align: center;
 }
+.btn-danger {
+    margin-right: 5px;
+}
